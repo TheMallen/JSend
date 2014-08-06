@@ -8,6 +8,13 @@ are get/set hybrids.
 TODO: The ability to pass a jSend output into a jSend constructor would almost certainly be a good idea. In many cases
 they will be processed by javascript, but sometimes multiple php processes may need to send eachother jsons.
 
+### Installing
+
+For composer, add `"themallen/jsend": "dev-master"` to your `require` object.
+
+For anyone else, just `git clone` the repo into your desired folder and add it to whatever include_path or autoloader
+solution you're using. For example, in codeigniter you would install it to the `application/libraries` folder.
+
 ### Example usage
 
 #### Configure a jSend manually
