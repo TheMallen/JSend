@@ -84,7 +84,7 @@ class JSend {
         if ($this->message) {
             $dataArray['message'] = $this->message;
         }
-        return json_encode($dataArray);
+        return $this->prefix . json_encode($dataArray);
     }
 
     public function output(){
