@@ -6,6 +6,14 @@ class JSend {
     private $status = 'success';
     private $data = null;
     private $message = null;
+    private $prefix = ")]}',\n";
+
+    public function __construct(array $config = array())
+    {
+        if (!empty($config['prefix'])) {
+            $this->prefix = $config['prefix'];
+        }
+    }
 
     public function status($status  = null)
     {
