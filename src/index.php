@@ -13,6 +13,9 @@ class JSend {
         if (!empty($config['prefix'])) {
             $this->prefix = $config['prefix'];
         }
+        else {
+            $this->prefix = '';
+        }
     }
 
     public function status($status  = null)
