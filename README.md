@@ -8,6 +8,9 @@ are get/set hybrids.
 TODO: The ability to pass a jSend output into a jSend constructor would almost certainly be a good idea. In many cases
 they will be processed by javascript, but sometimes multiple php processes may need to send eachother jsons.
 
+### Updates
+* Added security prefixing.
+
 ### Installing
 
 For composer, add `"themallen/jsend": "dev-master"` to your `require` object.
