@@ -69,3 +69,5 @@ You can use any of the mutator methods to access property values.
 #### Contributing
 If you feel like making this better, feel free to open a pull request! Even some tests or something would be pretty rad.
 
+### License
+Pretty much everything I make I'd consider under the [Don't Be a Dick](http://www.dbad-license.org/) license
